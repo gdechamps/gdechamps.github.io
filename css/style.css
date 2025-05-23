@@ -1,0 +1,26 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bs-primary: #007BFF;
+    --bs-secondary: #e9ecef;
+    --black-color: #000000;
+}
+
+/* Custom header styling */
+.custom-header.navbar {
+    background-color: var(--bs-primary);
+    padding: 15px 0;
+}
+
+.custom-header.navbar .navbar-brand,
+.custom-header.navbar .navbar-nav .nav-link {
+    color: var(--black-color);
+}
+
+.custom-header.navbar .navbar-nav .nav-link:hover,
+.custom-header.navbar .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: var(--black-color);
+}
