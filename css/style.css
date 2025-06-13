@@ -11,7 +11,7 @@
 /* Custom header styling */
 .custom-header.navbar {
     background-color: var(--bs-primary);
-    padding: 15px 0;
+    padding: 15px;
 }
 
 .custom-header.navbar .navbar-brand,
@@ -23,4 +23,17 @@
 .custom-header.navbar .navbar-nav .nav-link.active {
     font-weight: bold;
     color: var(--black-color);
+}
+
+/* Custom main styling */
+.custom-main {
+    background-color: var(--bs-secondary);
+    padding: 40px;
+}
+
+/* Custom footer styling */
+.custom-footer {
+    background-color: var(--bs-primary);
+    color: var(--black-color);
+    font-size: 18px;
 }
