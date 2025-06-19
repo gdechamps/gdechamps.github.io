@@ -6,6 +6,7 @@
     --bs-primary: #007BFF;
     --bs-secondary: #e9ecef;
     --black-color: #000000;
+    --background-color-progress-bar: #e0e0e0;
 }
 
 /* Custom header styling */
@@ -52,4 +53,45 @@
     height: 180px;
     object-fit: cover;
     transition: transform 0.5s ease;
+}
+
+/* Skills logo container */
+.skill-logo-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-logo-container img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.skill-logo-container .css-logo {
+    max-width: 150%;
+    max-height: 150%;
+}
+
+.skill-logo-container .js-logo {
+    max-width: 145%;
+    max-height: 145%;
+}
+
+/* Skills card styling with border */
+.skills-card {
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Progress bar styling */
+.progress {
+    background-color: var(--background-color-progress-bar)
+}
+
+.progress .progress-bar {
+    background-color: var(--bs-primary);
 }
